@@ -22,7 +22,7 @@ cd /vagrant_data/django
 if [ ! -e test_project ]; then
 docker run --rm \
 --mount type=bind,src=$(pwd),dst=/opt/apps \
-django2.1 \
+django2.2 \
 django-admin startproject test_project .
 fi
 
