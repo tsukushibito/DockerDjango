@@ -16,7 +16,7 @@ sudo chmod +x /usr/local/bin/docker-compose
 fi
 
 cd /vagrant_data
-docker build -t django2.1 -f ./django/Dockerfile.base ./django
+docker build -t django2.2 -f ./django/Dockerfile.base ./django
 
 cd /vagrant_data/django
 if [ ! -e test_project ]; then
